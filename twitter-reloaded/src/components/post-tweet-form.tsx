@@ -64,8 +64,6 @@ const SubmitBtn = styled.input`
     }
 `;
 
-
-
 export default function PostTweetForm(){
         const [isLoding, setLoading] = useState(false);
         const [tweet, setTweet] = useState("");
